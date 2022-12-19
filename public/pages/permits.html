@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Build LA</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid"  style="height: 100%; padding: 0px;">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="../images/buildlalogo.png"
+              alt="City of Los Angeles - Build LA"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item navspacing">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item navspacing">
+                <a class="nav-link" href="../pages/services.html">Services</a>
+              </li>
+              <li class="nav-item navspacing">
+                <a class="nav-link" href="../pages/tools.html">Tools</a>
+              </li>
+              <li class="nav-item dropdown navspacing">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Resources
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Locations</a></li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <i class="fas fa-search"></i>
+              </li>
+            </ul>
+
+            <div class="d-flex">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    My Account
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./account.html">Account</a></li>
+                    <li><a class="dropdown-item" href="./appointments.html">Appointments</a></li>
+                    <li><a class="dropdown-item" href="./clearances.html">Clearances</a></li>
+                    <li><a class="dropdown-item" href="./entitlements.html">Entitlements</a></li>
+                    <li><a class="dropdown-item" href="./inspections.html">Inspections</a></li>
+                    <li><a class="dropdown-item" href="./payments.html">Payments</a></li>
+                    <li><a class="dropdown-item active" href="./permits.html">Permits</a></li>
+                    <li><a class="dropdown-item" href="./servicerequests.html">Service Requests</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="mainContainer servicesContainer">
+        <div class="container-fluid landingPage d-flex flex-row align-items-center justify-content-center">
+        </div>
+        <a href="#" class="chat d-flex flex-row align-items-center">
+          <i class="fas fa-comment-dots"></i> <div class="chat-text">Chat with Chip</div>
+        </a>
+        <div class="container doublespacingContainer services permits">
+          <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./account.html">Customer Portal</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Permits</li>
+            </ol>
+          </nav>
+          <div class="row align-items-center">
+            <div class="col align-self-center"><h4>Permits</h4></div>
+          </div>
+          <div class="d-flex spacingContainer">
+            <h6 class="medium-heading">There are currently <b>2</b> permits In Progress: <a href="./mypermits.html">My Permits</a> </h6>
+          </div>
+          <div class="doublespacingContainer">
+            <div class="d-flex flex-row align-items-center justify-content-between">
+              <form class="d-flex searchContainer permitsSearchContainer">
+                <input class="form-control me-2 homeSearch" type="search" placeholder="Search Permits" aria-label="Search">
+                <i class="fas fa-search"></i>
+              </form>
+              <div class="d-flex flex-row itemContainer permitItemContainer">
+                <div class="item">
+                  <a href="#" id="tileViewBtn" class="locationItem d-flex flex-row align-items-center justify-content-center active">
+                    <svg id="tileViewSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M149.333 56v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V56c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zm181.334 240v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm32-240v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24zm-32 80V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm-205.334 56H24c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zm386.667-56H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm0 160H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zM181.333 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24z"/></svg>
+                    <div class="locationText">Tile View</div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="#" id="listViewBtn" class="locationItem d-flex flex-row align-items-center justify-content-center">
+                    <svg id="listViewSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M149.333 216v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24v-80c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zM125.333 32H24C10.745 32 0 42.745 0 56v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24zm80 448H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm-24-424v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24zm24 264H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24z"/></svg>
+                    <div class="locationText">List View</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="listView" class="doublespacingContainer d-flex flex-column itemContainer serviceItems">
+            <a class="d-flex flex-column listLinkItem" href="#">
+              <span class="serviceLinkTitle">A Permits Online (Online Service)</span>
+              <div class="sub-header">Bureau of Engineering</div>
+            </a>
+            <a class="d-flex flex-column listLinkItem" href="#">
+              <span class="serviceLinkTitle">B Permits Online (Online Service)</span>
+              <div class="sub-header">Bureau of Engineering</div>
+            </a>
+            <a class="d-flex flex-column listLinkItem" href="#">
+              <span class="serviceLinkTitle">Beverage & Entertainment (Online Service)</span>
+              <div class="sub-header">City Planning</div>
+            </a>
+            <a class="d-flex flex-column listLinkItem" href="#">
+              <span class="serviceLinkTitle">Case Filing Appointment (Online Service)</span>
+              <div class="sub-header">City Planning</div>
+            </a>
+            <a class="d-flex flex-column listLinkItem" href="#">
+              <span class="serviceLinkTitle">Case Management</span>
+              <div class="sub-header">Building and Safety</div>
+            </a>
+            <a class="d-flex flex-column listLinkItem" href="#">
+              <span class="serviceLinkTitle">Claim for Refund</span>
+              <div class="sub-header">Building and Safety</div>
+            </a>
+            <a class="d-flex flex-column listLinkItem" href="#">
+              <span class="serviceLinkTitle">Claim for Refund</span>
+              <div class="sub-header">City Planning</div>
+            </a>
+            <a class="d-flex flex-column listLinkItem" href="#">
+              <span class="serviceLinkTitle">Claim for Refund (Online Service)</span>
+              <div class="sub-header">Bureau of Engineering</div>
+            </a>
+            <a class="d-flex flex-column listLinkItem" href="#">
+              <span class="serviceLinkTitle">Claim for Refund</span>
+              <div class="sub-header">Fire Department</div>
+            </a>
+            <a class="d-flex flex-column listLinkItem" href="#">
+              <span class="serviceLinkTitle">Code Enforcement (Online Service)</span>
+              <div class="sub-header">Building and Safety</div>
+            </a>
+            <a class="d-flex flex-column listLinkItem" href="#">
+              <span class="serviceLinkTitle">Concierge (Online Service)</span>
+              <div class="sub-header">Building and Safety</div>
+            </a>
+            <a class="d-flex flex-column listLinkItem" href="#">
+              <span class="serviceLinkTitle">E Permits Online</span>
+              <div class="sub-header">Bureau of Engineering</div>
+            </a>
+            <a class="d-flex flex-column listLinkItem" href="#">
+              <span class="serviceLinkTitle">EBEWE (Online Service)</span>
+              <div class="sub-header">Building and Safety</div>
+            </a>
+            <a class="d-flex flex-column listLinkItem" href="#">
+              <span class="serviceLinkTitle">Environmental Impact</span>
+              <div class="sub-header">City Planning</div>
+            </a>
+            <a class="d-flex flex-column listLinkItem" href="#">
+              <span class="serviceLinkTitle">ePlanLA (Online Service)</span>
+              <div class="sub-header">Building and Safety</div>
+            </a>
+
+          </div>
+
+          <div id="tileView" class="d-flex flex-row itemContainer flex-wrap serviceItems doublespacingContainer" style="padding: 0em;">
+            <a href="#" class="d-flex flex-column align-items-center justify-content-center linkContainer">
+              <span class="onlineService">Online Service</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M192 0c-41.8 0-77.4 26.7-90.5 64H64C28.7 64 0 92.7 0 128V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H282.5C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM305 273L177 401c-9.4 9.4-24.6 9.4-33.9 0L79 337c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L271 239c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>
+              <div class="d-flex flex-column align-items-center">
+                <span class="serviceItemTitle">Construction (A) Permit</span>
+                <button href="./apermit.html" class="d-flex flex-row infoLink align-items-center"><i class="fas fa-info"></i><div>Information</div></button>
+              </div>
+            </a>
+            <a href="#" class="d-flex flex-column align-items-center justify-content-center linkContainer">
+              <span class="onlineService">Online Service</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M192 0c-41.8 0-77.4 26.7-90.5 64H64C28.7 64 0 92.7 0 128V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H282.5C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM305 273L177 401c-9.4 9.4-24.6 9.4-33.9 0L79 337c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L271 239c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>
+              <div class="d-flex flex-column align-items-center">
+                <span class="serviceItemTitle">Class (B) Permit</span>
+                <button href="./bpermit.html" class="d-flex flex-row infoLink align-items-center"><i class="fas fa-info"></i><div>Information</div></button>
+              </div>
+            </a>
+            <a href="#" class="d-flex flex-column align-items-center justify-content-center linkContainer">
+              <span class="onlineService">Online Service</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M192 0c-41.8 0-77.4 26.7-90.5 64H64C28.7 64 0 92.7 0 128V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H282.5C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM305 273L177 401c-9.4 9.4-24.6 9.4-33.9 0L79 337c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L271 239c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>
+              <div class="d-flex flex-column align-items-center">
+                <span class="serviceItemTitle">Storm Drain (SD) Permit</span>
+                <button href="./bpermit.html" class="d-flex flex-row infoLink align-items-center"><i class="fas fa-info"></i><div>Information</div></button>
+              </div>
+            </a>
+            <a href="#" class="d-flex flex-column align-items-center justify-content-center linkContainer">
+              <span class="onlineService">Online Service</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M192 0c-41.8 0-77.4 26.7-90.5 64H64C28.7 64 0 92.7 0 128V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H282.5C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM305 273L177 401c-9.4 9.4-24.6 9.4-33.9 0L79 337c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L271 239c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>
+              <div class="d-flex flex-column align-items-center">
+                <span class="serviceItemTitle">Sewer Construction (S) Permit</span>
+                <button href="./bpermit.html" class="d-flex flex-row infoLink align-items-center"><i class="fas fa-info"></i><div>Information</div></button>
+              </div>
+            </a>
+            <a href="#" class="d-flex flex-column align-items-center justify-content-center linkContainer">
+              <span class="onlineService">Online Service</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M192 0c-41.8 0-77.4 26.7-90.5 64H64C28.7 64 0 92.7 0 128V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H282.5C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM305 273L177 401c-9.4 9.4-24.6 9.4-33.9 0L79 337c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L271 239c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>
+              <div class="d-flex flex-column align-items-center">
+                <span class="serviceItemTitle">Excavation (E) Permit</span>
+                <button href="./bpermit.html" class="d-flex flex-row infoLink align-items-center"><i class="fas fa-info"></i><div>Information</div></button>
+              </div>
+            </a>
+            <a href="#" class="d-flex flex-column align-items-center justify-content-center linkContainer">
+              <span class="onlineService">Online Service</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M192 0c-41.8 0-77.4 26.7-90.5 64H64C28.7 64 0 92.7 0 128V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H282.5C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM305 273L177 401c-9.4 9.4-24.6 9.4-33.9 0L79 337c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L271 239c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>
+              <div class="d-flex flex-column align-items-center">
+                <span class="serviceItemTitle">Excavation (U) Permit</span>
+                <button href="./bpermit.html" class="d-flex flex-row infoLink align-items-center"><i class="fas fa-info"></i><div>Information</div></button>
+              </div>
+            </a>
+            <a href="#" class="d-flex flex-column align-items-center justify-content-center linkContainer">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M192 0c-41.8 0-77.4 26.7-90.5 64H64C28.7 64 0 92.7 0 128V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H282.5C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM305 273L177 401c-9.4 9.4-24.6 9.4-33.9 0L79 337c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L271 239c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>
+              <div class="d-flex flex-column align-items-center">
+                <span class="serviceItemTitle">Watercourse (W) Permit</span>
+                <button href="./bpermit.html" class="d-flex flex-row infoLink align-items-center"><i class="fas fa-info"></i><div>Information</div></button>
+              </div>
+            </a>
+            <a href="#" class="d-flex flex-column align-items-center justify-content-center linkContainer">
+              <span class="onlineService">Online Service</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M192 0c-41.8 0-77.4 26.7-90.5 64H64C28.7 64 0 92.7 0 128V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H282.5C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM305 273L177 401c-9.4 9.4-24.6 9.4-33.9 0L79 337c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L271 239c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>
+              <div class="d-flex flex-column align-items-center">
+                <span class="serviceItemTitle">Revocable (R) Permit</span>
+                <button href="./bpermit.html" class="d-flex flex-row infoLink align-items-center"><i class="fas fa-info"></i><div>Information</div></button>
+              </div>
+            </a>
+            <a href="#" class="d-flex flex-column align-items-center justify-content-center linkContainer">
+              <span class="onlineService">Online Service</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M192 0c-41.8 0-77.4 26.7-90.5 64H64C28.7 64 0 92.7 0 128V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H282.5C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM305 273L177 401c-9.4 9.4-24.6 9.4-33.9 0L79 337c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L271 239c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>
+              <div class="d-flex flex-column align-items-center">
+                <span class="serviceItemTitle">Maintenance Hole (MH) Permit</span>
+                <button href="./bpermit.html" class="d-flex flex-row infoLink align-items-center"><i class="fas fa-info"></i><div>Information</div></button>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

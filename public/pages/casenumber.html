@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Build LA</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+  </head>
+  <body>
+    <script>
+      $(document).ready( function () {
+          $('#table_id').DataTable();
+      } );
+    </script>
+    <div class="container-fluid"  style="height: 100%; padding: 0px;">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="../images/buildlalogo.png"
+              alt="City of Los Angeles - Build LA"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item navspacing">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item navspacing">
+                <a class="nav-link" href="../pages/services.html">Services</a>
+              </li>
+              <li class="nav-item navspacing">
+                <a class="nav-link" href="../pages/tools.html">Tools</a>
+              </li>
+              <li class="nav-item dropdown navspacing">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Resources
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Locations</a></li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <i class="fas fa-search"></i>
+              </li>
+            </ul>
+
+            <div class="d-flex">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    My Account
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./account.html">Account</a></li>
+                    <li><a class="dropdown-item" href="./appointments.html">Appointments</a></li>
+                    <li><a class="dropdown-item" href="./clearances.html">Clearances</a></li>
+                    <li><a class="dropdown-item active" href="./entitlements.html">Entitlements</a></li>
+                    <li><a class="dropdown-item" href="./inspections.html">Inspections</a></li>
+                    <li><a class="dropdown-item" href="./payments.html">Payments</a></li>
+                    <li><a class="dropdown-item" href="./permits.html">Permits</a></li>
+                    <li><a class="dropdown-item" href="./servicerequests.html">Service Requests</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="mainContainer servicesContainer caseContainer">
+        <div class="container-fluid landingPage d-flex flex-row align-items-center justify-content-center">
+        </div>
+        <a href="#" class="chat d-flex flex-row align-items-center">
+          <i class="fas fa-comment-dots"></i> <div class="chat-text">Chat with Chip</div>
+        </a>
+        <div class="container doublespacingContainer">
+          <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./account.html">Customer Portal</a></li>
+              <li class="breadcrumb-item"><a href="./entitlements.html">Entitlements</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Case Number: DIR-2022-442550-CDP-MDL-HCA</li>
+            </ol>
+          </nav>
+          <div class="row align-items-center">
+            <div class="col align-self-center"><h4>Case Number: DIR-2022-442550-CDP-MDL-HCA</h4></div>
+          </div>
+
+          <div class="d-flex flex-row doublespacingContainer">
+            <div class="d-flex flex-column itemContainer col-sm-14 col-md-5">
+              <div class="d-flex flex-row">
+                <h6>Case Filed On: </h6>
+                <div class="sub-header">11/24/2022</div>
+              </div>
+              <div class="d-flex flex-row">
+                <h6>Assigned Date: </h6>
+                <div class="sub-header">11/28/2022</div>
+              </div>
+              <div class="d-flex flex-row">
+                <h6>Staff Assigned: </h6>
+                <div class="sub-header">12/02/2022</div>
+              </div>
+              <div class="d-flex flex-row">
+                <h6>Hearing Waived / Date Waived: </h6>
+                <div class="sub-header">No </div>
+              </div>
+              <div class="d-flex flex-row">
+                <h6>Appealed: </h6>
+                <div class="sub-header">No</div>
+              </div>
+              <div class="d-flex flex-row">
+                <h6>BOE Reference Number: </h6>
+                <div class="sub-header">00465857</div>
+              </div>
+              <div class="d-flex flex-row">
+                <h6>Case on Hold: </h6>
+                <div class="sub-header">Yes</div>
+              </div>
+              <div class="d-flex flex-row">
+                <h6>Primary Address: </h6>
+                <div class="d-flex flex-column">
+                  <div class="sub-header">22245 N Marquette St, 90723</div>
+                  <a href="#">View all Addresses</a>
+                </div>
+              </div>
+              <div class="d-flex flex-row">
+                <h6>Project Description: </h6>
+                <div class="sub-header">Coastal Development Permit and Mello Act Filing to convert detached garage into accessory dwelling unit</div>
+              </div>
+              <div class="d-flex flex-row">
+                <h6>Applicant: </h6>
+                <div class="sub-header">Jane Doe</div>
+              </div>
+              <div class="d-flex flex-row">
+                <h6>Representative: </h6>
+                <div class="sub-header">Representative name here</div>
+              </div>
+            </div>
+
+            <div class="col-sm-14 col-md-7 leftCaseInfo">
+              <div class="d-flex flex-column itemContainer">
+                <div class="d-flex flex-row itemContainer">
+                  <a href="#">View Related Cases</a>
+                  <a href="#">View this case in IPCTS</a>
+                  <a href="#">Permamnent Case Link</a>
+                </div>
+                <div class="d-flex flex-column itemContainer">
+                  <h6>Approved Documents found for Case Number DIR-2022-442550-CDP-MDL-HCA</h6>
+                  <table id="table_id" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Scan Date</th>
+                            <th>Signed</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                          <td>type here</td>
+                          <td>11/15/2022</td>
+                          <td><div class="submitted">Yes</div></td>
+                          <td>
+                            <div class="dropdown">
+                              <button class="btn btn-secondary dropdown-action-toggle" type="button" id="dropdownMenu1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M120 256c0 30.9-25.1 56-56 56s-56-25.1-56-56s25.1-56 56-56s56 25.1 56 56zm160 0c0 30.9-25.1 56-56 56s-56-25.1-56-56s25.1-56 56-56s56 25.1 56 56zm104 56c-30.9 0-56-25.1-56-56s25.1-56 56-56s56 25.1 56 56s-25.1 56-56 56z"/></svg>
+                              </button>
+                              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><button class="dropdown-item" type="button">Email Document</button></li>
+                                <li><button class="dropdown-item" type="button">Download Document</button></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

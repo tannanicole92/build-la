@@ -1,0 +1,23 @@
+{
+  "name": "build-la",
+  "version": "1.0.0",
+  "description": "build la wirefram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "open http://localhost:8080 & static public",
+    "format": "prettier --write public/**/*.{js,css,html}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tannanicole92/build-la.git"
+  },
+  "author": "",
+  "devDependencies": {
+    "node-static": "^0.7.11",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+
+  }
+}

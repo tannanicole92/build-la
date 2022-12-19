@@ -253,7 +253,7 @@ a.linkContainer {
   background-color: #0F2940;
 }
 .checkContainer .checkmark:after {
-  left: 7px;
+  left: 6px;
   top: 3px;
   width: 4px;
   height: 8px;
